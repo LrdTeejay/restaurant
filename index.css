@@ -1,0 +1,98 @@
+body{
+	background-color:whitesmoke;
+	margin: 0 26%;
+	background-image: url(background1.jpg);
+	object-fit: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#name-of-restaurant{
+	font-family: "Arial Black", san seriff;
+	text-align: center;
+	font-size: 5vw;
+	color:transparent;
+	padding-top:0;
+	/*text-decoration: underline;*/
+	/*text-decoration-color: rgb(180, 0, 0);*/
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 0;
+	background-image: linear-gradient(to left,green, yellowgreen, red);
+	-webkit-background-clip:text;
+	line-height: 60px;
+}
+p#welcome-message{
+	padding-top: 0;
+	font-size: 1.2em;
+	margin-top: 2;
+}
+p#welcome-message span{
+	font-weight: bolder;
+}
+p{
+	font-size: 1.1em;
+}
+p.Will-be-served{
+	background-color: black;
+	color: white;
+	padding:0 1em;
+	border-radius: 8px;
+	width: 25%;
+}
+p.location{
+	text-decoration: underline;
+}
+h3{
+	color: blue;
+}
+div#container{
+	height: auto;
+	width: auto;
+	background-color: whitesmoke;
+	border-radius: 10px;
+	padding-right: 2em;
+	padding-left: 2em;
+	padding-bottom: 2em;
+	margin-bottom: 5%;
+	margin-top: 10%;
+	border-top-left-radius: 35px;
+	border-top-right-radius:0;
+	border-top-style:solid ;
+	border-top-color:green;
+	border-top-width:10px;
+	border: 5px green dashed;
+}
+ol{
+	list-style-image:url(strawberry-icon.png);
+}
+img{
+	width:150px;
+	height: 150px;
+	background-size: cover;
+	padding-top:1em;
+	padding-bottom: 0;
+}
+h6{
+	text-align: center;
+}
+@media screen and (max-width:700px){
+	div#container{
+		width: 60vw;
+		margin: 10% 0 10% -25%;
+		padding: 15px;
+	}	
+	p.Will-be-served{
+		width: 60%;
+		padding: 10px;
+	}
+	img{
+		width: 100px;
+		height: 100px;
+		margin-bottom: -25px;
+	}
+	#name-of-restaurant{
+	font-size: 6vw;
+	line-height: 30px;		
+	}
+}
